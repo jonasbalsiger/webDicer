@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Webdicer | 1 to 6</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<script src="assets/js/diceClass.js" type="text/javascript"></script>
+		<script src="assets/js/GeneralFunctions.js" type="text/javascript"></script>
+		<script src="assets/js/woerterwuerfeln.js" type="text/javascript"></script>
+	</head>
+
+	<body onload="init()">
+		
+		<div id="main-content">
+			<!-- in this div, all existing dices will be printed in -->
+			<div id="dices"></div>
+
+			<h1>Wörter</h1>
+			<div id="words">
+				<div class="wordsscroll">
+				</div>
+			</div>
+
+			<!-- Controls -->
+			<div id="controls">
+				<form name="form">
+					<input type="text" name="wordX" id="wordInput" placeholder="Wort eingeben"></input>
+				</form>
+				<!-- add or remove words on touch-->
+    			<div id="removeButton">-</div>
+				<div id="rollButton">W</div>
+				<div id="addButton">+</div>
+			</div>
+
+			<div id="main-back">X</div>
+		</div>
+
+		<div id="main-overlay">
+			Verlassen?
+			<a href="index.html"><div id="leaveButton">Ja</div></a>
+			<div id="leavenotButton">Nein</div>
+		</div>
+
+	</body>
+</html>

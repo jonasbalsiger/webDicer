@@ -1,0 +1,268 @@
+/* general style */
+@font-face {
+  font-family: 'Black Ops One';
+  src: url(BlackOpsOne.ttf);
+}
+
+html,body{
+  font-family: 'Black Ops One',serif;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin:0;
+  padding:0;
+  background: #222222;
+  color: #FACC2E;
+  text-align: center;
+}
+
+a {
+  color: #FACC2E;
+  text-decoration: underline;
+}
+
+
+/* landing page */
+#logo{
+  width: 75vw;
+  height: 75vw;
+  margin: 4vw 12.5vw 0vw 12.5vw;
+  background: url(logo.png);
+  background-size: cover;
+}
+
+.option-button{
+  width: 60vw;
+  margin: 4vw 20vw;
+  padding: 2vw 0;
+  border: 0.75vw solid #FACC2E;
+  box-sizing: border-box;
+  border-radius: 1.5vw;
+  font-size: 4vw;
+}
+
+.option-button:active{
+  background: #FACC2E;
+  color:#222222;
+}
+
+.copyright{
+  clear: left;
+  width: 50vw;
+  margin: 0 25vw;
+  padding-top: 6vw;
+  font-size: 2vw;
+}
+
+
+/* main contentarea */
+#main-content{
+  position: relative;
+  float: left;
+  clear: left;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+#main-overlay{
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80vw;
+  height: 100vh;
+  padding: 10vw;
+  background: #000000;
+  opacity: 0.9;
+  color:#ffffff;
+  font-size: 7vw;
+}
+
+#main-back, #main-overlay-back{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 8vw;
+  height: 8vw;
+  margin: 2vw 2vw 0vw 0vw;
+  font-size: 5vw;
+  line-height: 7vw;
+  border: 0.75vw solid;
+  box-sizing: border-box;
+  border-radius: 1.5vw;
+}
+#main-back{
+  color: #404040;
+  border-color:#404040;
+}
+#main-overlay-back{
+  border-color: #FACC2E;
+  color: #FACC2E;
+}
+
+#main-overlay-text{
+  clear: left;
+  float: left;
+  text-align: left;
+}
+
+#leaveButton, #leavenotButton{
+  float:left;
+  width: 25vw;
+  height: 9.5vw; 
+  color: #FACC2E;
+  background: #ffffff;
+  border:0.75vw solid #FACC2E;
+  box-sizing: border-box;
+  border-radius: 1.5vw;
+}
+#leaveButton{
+  margin-left: 12.5vw;
+}
+#leavenotButton{
+  margin-left: 5vw;
+}
+
+/* dice styles */
+#dices{
+  margin-top: 10vw;
+}
+#dices > div {
+  display:inline-block;
+  width: 33vw;
+  height: 33vw;
+  margin: 3vw;
+  box-sizing: border-box;
+  border:0;
+  border-radius: 5vw;
+  background: #FACC2E;
+  color:#ffffff;
+  font-size: 28vw;
+}
+
+#oneDice{
+  width: 80vw !important;
+  height:80vw !important;
+  margin:0 10vw 10vw 10vw !important;
+  font-size:68vw !important;
+}
+
+#d3{
+  margin-left: 33.3vw !important;
+  margin-right: 33.3vw !important;
+}
+
+#dm1, #dm2{
+  width: 50vw !important;
+  height: 50vw !important;
+  margin: 3vw 25vw !important;
+  font-size: 42vw !important;
+}
+
+
+/* controls style (bottom) */
+#controls, #controlsTrust{
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height:auto;
+  margin: 0;
+  padding: 4vw 0;
+  background: #404040;
+}
+
+#controls > div, #controlsTrust > div {
+  float: left;
+  width:15vw;
+  height:15vw;
+  margin: 0;
+  padding-top: 3vw;
+  background: #ffffff;
+  border: 0.75vw solid #FACC2E;
+  box-sizing: border-box;
+  border-radius: 1.5vw;
+  font-size:9vw;
+  line-height: 9vw;
+}
+#addButton{
+  margin: 0 0 0 4vw !important;
+}
+#removeButton{
+  margin: 0 4vw 0 23.5vw !important;
+}
+#rollButtonJ{
+  width:45vw !important;
+  margin: 0 27.5vw !important;
+}
+#rollButtonM{
+  width:60vw !important;
+  margin: 0 20vw !important;
+}
+#noButton{
+  margin-left: 10vw !important;
+}
+
+#trustText{
+  border:none !important;
+  background:none !important;
+  width: 50vw !important;
+  font-size: 7vw !important;
+}
+#numOfSides{
+  width:100vw !important;
+  height:10vw !important;
+  padding: 0 !important;
+  background:none !important;
+  border:none !important;
+  color: #222222;
+  font-size: 7vw !important;
+  line-height:  7vw !important;
+}
+
+/* Word-Dicer styles */
+h1{
+  color: #FACC2E;
+  font-size: 7vw;
+  margin-top:0;
+}
+
+#words{
+  color: #404040;
+  font-size: 5vw;
+  float:left;
+  clear: left;
+  width: 88vw;
+  height: 15vw;
+  padding: 3vw;
+  margin: 0 3vw 0 3vw;
+  overflow-y: scroll;
+  text-align:center;
+}
+#words::-webkit-scrollbar {
+    width: 1vw;
+    background-color: #404040;
+}
+#words::-webkit-scrollbar-thumb {
+    background-color: #FACC2E;
+}
+#words p{
+  margin:0 0 1vw 0;
+}
+.wordsscroll{
+  min-height: 5vw;
+}
+#wordInput{
+  width: 94vw;
+  font-family: 'Black Ops One', serif;
+  font-size:5vw;
+  text-align: center;
+  padding: 3vw 0 3vw 0;
+  margin: 0 3vw 3vw 3vw;
+  color:#404040;
+  background: #ffffff;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 1.5vw;
+}

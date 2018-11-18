@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Webdicer | Jazzi</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<script src="assets/js/diceClass.js" type="text/javascript"></script>
+		<script src="assets/js/GeneralFunctions.js" type="text/javascript"></script>
+		<script src="assets/js/jazzi.js" type="text/javascript"></script>
+	</head>
+
+
+	<body onload="init()">
+		
+		<div id="main-content">
+			<!-- in this div, all existing dices will be printed in -->
+			<div id="dices"></div>
+			<!-- Controls -->
+			<div id="controls">
+				<!-- remove or add sides to dice or roll dice -->
+				<div id="rollButtonJ"></div>
+			</div>
+			<!-- on touch shows main-overlay (leave?)-->
+			<div id="main-back">X</div>
+		</div>
+
+		<div id="main-overlay">
+			Verlassen?
+			<a href="index.html"><div id="leaveButton">Ja</div></a>
+			<div id="leavenotButton">Nein</div>
+		</div>
+
+	</body>
+
+</html>
