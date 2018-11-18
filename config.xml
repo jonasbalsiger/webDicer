@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <widget version="1.0.0">
-    <name>Webdicer</name>
+    <name>webDicer</name>
     <description>
-        Webdicer is an simple Dice-Application.
+        webDicer is a 2D-Dice-Application.
     </description>
     <author>
         Jonas Balsiger
